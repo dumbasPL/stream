@@ -2,7 +2,7 @@
 	"name": "modbus-stream",
 	"version": "0.44.0",
 	"author": "Diogo Resende <dresende@thinkdigital.pt>",
-	"repository": "https://github.com/node-modbus/stream",
+	"repository": "https://github.com/dumbasPL/stream",
 	"license": "MIT",
 	"keywords": [
 		"modbus",
@@ -24,5 +24,6 @@
 	"devDependencies": {
 		"dtslint": "^0.4.2",
 		"mocha": "^6.2.0"
-	}
+	},
+	"publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
